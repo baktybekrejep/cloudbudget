@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    .container{
+        max-width: 993px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width:769px;
+    }
+    .header-nav {
+        display: none;
+    }
+    .button-box{
+        display: none;
+    }
+    .burger-button{
+        display: block;
+    }
+    .stay-focused-photo-2 {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        width: 387px;
+        height: 290px;
+        top: 12px;
+    }
+
+}
+@media (max-width: 768px) {
+    .container{
+        max-width: 577px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        max-width:481px ;
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        max-width:321px ;
+    }
+}
+@media (max-width: 320px) {}
